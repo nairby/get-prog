@@ -1,0 +1,10 @@
+#!/bin/bash
+
+DIR=$(dirname $0)
+cd $DIR
+
+#git pull
+
+grep -v ^# tv.txt | grep -v ^$ | awk '{print "get_iplayer --output ~/iplayer \""$0"\" --get"}'
+grep -v ^# radio.txt | grep -v ^$ | awk '{print "get_iplayer --type=radio --output ~/iplayer \""$0"\" --get"}'
+
