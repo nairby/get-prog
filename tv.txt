@@ -73,3 +73,5 @@ Capture
 Red rose
 Ladhood
 frozen planet
+Snowflake
+Tornado
